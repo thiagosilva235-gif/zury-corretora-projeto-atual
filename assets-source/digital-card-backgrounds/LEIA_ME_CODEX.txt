@@ -1,0 +1,19 @@
+ZURY CORRETORA | FUNDOS RESPONSIVOS — CANTOS CORRIGIDOS
+
+Versão final derivada dos PNGs existentes, sem reconstruir o escudo ou a malha:
+- Suavização localizada no canto superior direito dos escudos, incluindo a quina metálica.
+- Suavização localizada na ponta inferior, incluindo a ponta e a borda inferior.
+- Desfoque do interior mantido; textura da malha fora da região corrigida não foi alterada.
+- Máscara com transição gradual, evitando halo ou recorte abrupto.
+- Cada PNG corresponde a uma orientação. Os PNGs têm resolução 2x por interpolação,
+  portanto não representam detalhes nativos adicionais à imagem original.
+
+01 Ultrawide: 3832 x 1642
+02 Desktop: 3344 x 1882
+03 Tablet horizontal: 2896 x 2172
+04 Tablet vertical: 2172 x 2896
+05 Mobile: 1882 x 3344
+
+Codex: usar <picture> ou CSS media queries para carregar o arquivo apropriado.
+background-position: center center; background-size: cover; background-repeat: no-repeat.
+Não aplicar desfoque CSS à imagem completa para não desfocar a malha.

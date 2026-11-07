@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://zury-corretora-digital.vercel.app/sitemap.xml
